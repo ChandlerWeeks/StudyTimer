@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+   font-family: 'Quicksand', sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(.5turn, #ff8787, #b8beff);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100%;
+  min-width: 40rem;
+}
+
+.contents {
+  background: linear-gradient(.03turn, #d45656, #7980ca);
+  border: 5px solid black;
+  box-shadow: 2px 2px 5px #252525;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 30%;
+  min-height: 500px;
+  margin: 5rem;
+  padding: 2.5rem;
+}
+
+.contents p {
+  font-size: 6rem;
+}
+
+.contents h1 {
+  font-size: 3rem;
+}
+
+.buttons-box {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+button {
+  width: 7.5rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  background-color: #7851F0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 0.5rem;
+  box-shadow: 1px 1px grey;
+}
+
+button:hover {
+  transition: .0.3s;
+  background-color: #6569E6;
+  box-shadow: 2px 2px grey;
+  cursor: pointer;
+}
+
+button:active {
+  transition: .0.3s;
+  background-color: #6361E1;
+  box-shadow: 2px 2px grey;
+  cursor: pointer;
+}
