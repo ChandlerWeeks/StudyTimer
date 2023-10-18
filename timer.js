@@ -43,7 +43,9 @@ document.addEventListener("DOMContentLoaded", function() {
     function decrementTime() {
     if (secs < 1) {
         if (mins < 1) {
-        alert('Alarm Done! Take a 5 Minute break')
+            clearInterval(intervalID);
+            alert('Alarm Done! Take a 5 Minute break')
+            running = false;
         } else {
         mins -= 1
         secs = 59
